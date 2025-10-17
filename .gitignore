@@ -1,0 +1,62 @@
+# -----------------------------------------------------------------------------
+# General Python Files
+# -----------------------------------------------------------------------------
+# Byte-compiled / optimized / test / distribution files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Created by setuptools
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Sphinx documentation
+/docs/_build/
+
+# Jupyter Notebook Files
+.ipynb_checkpoints
+
+# -----------------------------------------------------------------------------
+# Conda Environment Files
+# -----------------------------------------------------------------------------
+# Conda environment file
+# Conda uses these directories to manage environments.
+.conda/
+
+# -----------------------------------------------------------------------------
+# macOS (OS X) Files
+# -----------------------------------------------------------------------------
+# Used by the Finder and other macOS apps
+.DS_Store
+# Temporary files created by the system
+.Trashes
+# Resource forks and other metadata
+._*
+
+# -----------------------------------------------------------------------------
+# IDE and Editor Files (Common)
+# -----------------------------------------------------------------------------
+# VS Code
+.vscode/
+
+# JetBrains IDEs (PyCharm, IntelliJ, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
